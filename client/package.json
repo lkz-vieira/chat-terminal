@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "user01": "node index.js  --username vieira.lucas  --room sala01 --hostUri http://localhost:9898",
+    "user02": "node index.js  --username lucas.vieira  --room sala01 --hostUri http://localhost:9898",
+    "user03": "node index.js  --username lucas.vieira  --room sala01 --hostUri http://localhost:9898"
   },
   "keywords": [],
   "author": "",
